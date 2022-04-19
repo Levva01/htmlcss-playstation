@@ -6,13 +6,63 @@
     background-color: black;
 }
 
+.bg-color-lighterblack{
+    background-color: #363636;
+}
+
+/*---------------
+    TEXT COLOR
+---------------*/
+
+.txt-color-white{
+    color: white;
+}
+
+.txt-color-black{
+    color: black;
+}
 
 
-/*-----------------
-       HEADER 
------------------*/
+/*--------------
+    HEADER 
+--------------*/
 
 .header-top img{
     width: 100px;
     height: auto;
 }
+
+.header-end{
+    height: 100%;
+}
+
+.header-end li{
+    list-style: none;
+}
+
+.header-bottom a{
+    color: black;
+    font-weight: bold;
+}
+
+.header-end img{
+    width: 25px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+/*----------------
+    BUTTON 
+----------------*/
+
+.btn-style{
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: none;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
