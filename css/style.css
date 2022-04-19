@@ -1,0 +1,18 @@
+/*-------------------- 
+    BACKGROUND COLOR
+--------------------*/
+
+.bg-color-black{
+    background-color: black;
+}
+
+
+
+/*-----------------
+       HEADER 
+-----------------*/
+
+.header-top img{
+    width: 100px;
+    height: auto;
+}
