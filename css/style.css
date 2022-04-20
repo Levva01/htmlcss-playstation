@@ -22,6 +22,10 @@
     background-color: #0072ce;
 }
 
+.txt-subtitle{
+    color: #787878;
+}
+
 /*---------------
     TEXT COLOR
 ---------------*/
@@ -211,6 +215,15 @@ main{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+
+.container-ps4 img{
+    width: 70%;
+    height: auto;
+}
+
+.container-ps4 p{
+    font-size: 20px;
 }
 
 /*----------------
