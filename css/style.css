@@ -161,6 +161,27 @@ main{
     height: auto;
 }
 
+.it-takes-two img{
+    width: 300px;
+}
+
+.it-takes-two{
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.inside-ittakes{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    width: 300px;
+}
+
 /*----------------
     BUTTON 
 ----------------*/
