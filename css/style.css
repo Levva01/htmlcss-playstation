@@ -14,6 +14,10 @@
     background-color: #cd3d0f;
 }
 
+.bg-color-lightblue{
+    background-color: #0072ce;
+}
+
 /*---------------
     TEXT COLOR
 ---------------*/
@@ -24,6 +28,10 @@
 
 .txt-color-black{
     color: black;
+}
+
+.txt-color-lightblue{
+    color: #0072ce;
 }
 
 
@@ -88,6 +96,71 @@ main{
     width: 600px;
 }
 
+.container-thumb{
+    margin: 50px;
+
+}
+
+.thumb{
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.thumb img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.hero-gallery h5{
+    font-size: 20px;
+}
+
+.hero-gallery h2{
+    font-size: 50px;
+}
+
+.hero-gallery p{
+    font-size: 22px;
+}
+
+.container-console{
+    margin: 0 50px;
+    margin-top: 100px;
+}
+
+.container-console img{
+    width: 80%;
+    height: auto;
+}
+
+.container-console h2{
+    font-size: 50px;
+}
+
+.container-console p{
+    font-size: 20px;
+}
+
+.ps5-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: start ;
+}
+
+.thumb-gallery{
+    margin: 0 50px;
+}
+
+.thumb-gallery img{
+    width: 70%;
+    height: auto;
+}
+
 /*----------------
     BUTTON 
 ----------------*/
@@ -98,7 +171,6 @@ main{
     border: none;
     font-size: 16px;
     vertical-align: middle;
-    margin-left: 5px;
 }
 
 
