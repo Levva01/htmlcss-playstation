@@ -10,6 +10,10 @@
     background-color: #363636;
 }
 
+.bg-color-red-playstation{
+    background-color: #cd3d0f;
+}
+
 /*---------------
     TEXT COLOR
 ---------------*/
@@ -53,16 +57,48 @@
     color: black;
 }
 
+/*---------- 
+    MAIN
+----------*/
+main{
+    padding-top: 130px;
+}
+
+.hero{
+    background-image: url("../img/jumbo-bg.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: cover;
+    height: 650px;
+    position: relative;
+}
+
+.inside{
+    left: 30px;
+    position: absolute;
+    top: 50%;
+}
+
+.inside img{
+    width: 400px;
+}
+
+.p-container{
+    width: 600px;
+}
+
 /*----------------
     BUTTON 
 ----------------*/
 
 .btn-style{
-    padding: 5px 15px;
+    padding: 10px 15px;
     border-radius: 50px;
     border: none;
     font-size: 16px;
     vertical-align: middle;
     margin-left: 5px;
 }
+
 
