@@ -6,6 +6,10 @@
     background-color: black;
 }
 
+.bg-color-nuove-uscite{
+    background-color: #1f1f1f;
+}
+
 .bg-color-lighterblack{
     background-color: #363636;
 }
@@ -180,6 +184,33 @@ main{
     left: 50px;
     top: 50px;
     width: 300px;
+}
+
+.nuove-uscite{
+    padding-bottom: 30px;
+}
+
+.nuove-uscite h3{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.nuove-uscite .sub{
+    margin-left: 30px;
+}
+
+.nuove-uscite p{
+    margin-top: 7px;
+}
+
+.container-uscite{
+    margin: 0 30px;
+}
+
+.container-uscite img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 /*----------------
