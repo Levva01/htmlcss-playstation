@@ -40,6 +40,10 @@ html, body{
     background-color: white;
 }
 
+.bg-color-blue-ps{
+    background-color: #00439c;
+}
+
 /*---------------
     TEXT COLOR
 ---------------*/
@@ -274,6 +278,38 @@ main{
 .social img{
     width: 100%;
     height: auto;
+}
+
+.ps-footer{
+    width: 100px;
+    height: auto;
+}
+
+.globe{
+    width: 15px;
+    height: auto;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+footer li{
+    list-style: none;
+}
+
+#underline-text{
+    text-decoration: underline;
+}
+
+.sie{
+    width: 100px;
+    height: auto;
+}
+
+footer li{
+    margin-bottom: 10px;
 }
 
 /*----------------
