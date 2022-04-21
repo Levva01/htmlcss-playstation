@@ -28,8 +28,16 @@ html, body{
     background-color: #cd3d0f;
 }
 
+.bg-color-ps-now{
+    background-color: #161c3b;
+}
+
 .bg-color-lightblue{
     background-color: #0072ce;
+}
+
+.bg-color-white{
+    background-color: white;
 }
 
 /*---------------
@@ -252,6 +260,15 @@ main{
 .sconti img{
     width: 100%;
     height: auto;
+}
+
+.ps-now .left-column img{
+    width: 300px;
+    height: auto;
+}
+
+.ps-now p{
+    font-size: 20px;
 }
 
 /*----------------
