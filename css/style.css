@@ -271,6 +271,11 @@ main{
     font-size: 20px;
 }
 
+.social img{
+    width: 100%;
+    height: auto;
+}
+
 /*----------------
     BUTTON 
 ----------------*/
