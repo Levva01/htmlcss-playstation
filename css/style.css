@@ -133,6 +133,7 @@ main{
 .thumb{
     height: auto;
     margin-bottom: 50px;
+    opacity: 0.7;
 }
 
 .thumb img{
@@ -287,6 +288,10 @@ main{
     height: auto;
 }
 
+.sn, .sm{
+    transition: transform .3s;
+}
+
 /*---------------
     FOOTER
 ---------------*/
@@ -348,6 +353,26 @@ footer li{
     outline-color: #0072ce;
 }
 
+.bg-color-lightblue:hover.bg-color-lightblue{
+    outline-style: solid;
+    outline-offset: 3px;
+    outline-color: #0072ce;
+}
+
+.bg-color-red-playstation:hover.bg-color-red-playstation{
+    outline-color: #cd3d0f;
+    outline-offset: 3px;
+    outline-style: solid;
+}
+
+.thumb:hover.thumb{
+    opacity: 1;
+}
+
+.thumb:hover{
+    cursor: pointer;
+}
+
 #active-thumb:active img{
     outline-style: solid;
     outline-offset: 5px;
@@ -360,4 +385,27 @@ footer li{
 
 .ps5-container:hover .h-line{
     background-color: #0072ce;
+}
+
+.opacity-hover:hover{
+    opacity: 0.7;
+    outline-style: solid;
+    outline-offset: 3px;
+    outline-color: #0072ce;
+}
+
+.white-outline:hover.white-outline{
+    outline-style: solid;
+    outline-offset: 5px;
+    outline-color: white; 
+}
+
+.sn:hover.sn{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sm:hover.sm{
+    cursor: pointer;
+    transform: scale(1.05);
 }
